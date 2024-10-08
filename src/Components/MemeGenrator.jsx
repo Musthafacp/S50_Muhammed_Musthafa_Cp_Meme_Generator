@@ -56,7 +56,7 @@ function MemeGenrator() {
           value={meme.bottomText}
           onChange={handleChange}
         />
-        <button className="form-button" onClick={() => getMemeImage()}>
+        <button className="form-button" onClick={() => getMemeImage(allMemes)}>
           Get a new meme image 🖼
         </button>
       </div>
