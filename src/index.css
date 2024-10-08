@@ -1,0 +1,96 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.header {
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  color: white;
+}
+
+.header p {
+  color: white;
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header img {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 4%;
+}
+
+.form input {
+  border: 1px solid #282c34;
+  padding-left: 10px;
+  outline: none;
+  padding: 15px;
+  font-size: large;
+  font-family:  Arial, sans-serif;
+  border-radius: 10px;
+}
+
+.form button {
+  border: 1px solid #282c34;
+  background-color: black;
+  color: #fff;
+  font-family:  Arial, sans-serif;
+  padding: 13px;
+  border-radius: 10px;
+}
+
+.form button:hover {
+  cursor: pointer;
+}
+
+.meme {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.meme img {
+  height: 500px;
+  width: auto;
+}
+
+.meme h2 {
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 0 10px;
+}
+
+.top-text {
+  top: 10px;
+}
+
+.bottom-text {
+  bottom: 10px;
+}
